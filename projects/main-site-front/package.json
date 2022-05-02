@@ -1,0 +1,57 @@
+{
+	"name": "main-site-front",
+	"version": "0.0.1",
+	"description": "",
+	"main": "src/index.tsx",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"lint": "eslint src/*",
+		"dev": "webpack-dev-server",
+		"bump": "standard-version --skip.tag",
+		"release": "git flow release start `sh scripts/next-ver.sh`",
+		"publish": "git flow release finish `sh scripts/ver.sh`"
+	},
+	"dependencies": {
+		"react": "^18.0.0",
+		"react-dom": "^18.0.0",
+		"react-router": "^6.3.0",
+		"react-router-dom": "^6.3.0"
+	},
+	"devDependencies": {
+		"@types/react": "^18.0.6",
+		"@types/react-dom": "^18.0.2",
+		"@typescript-eslint/eslint-plugin": "^5.20.0",
+		"@typescript-eslint/parser": "^5.20.0",
+		"commitizen": "^4.2.4",
+		"css-loader": "^6.7.1",
+		"cz-conventional-changelog": "^3.3.0",
+		"esbuild-loader": "^2.18.0",
+		"eslint": "^8.14.0",
+		"eslint-config-airbnb": "^19.0.4",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-import-resolver-typescript": "^2.7.1",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-jsx-a11y": "^6.5.1",
+		"eslint-plugin-prettier": "^4.0.0",
+		"eslint-plugin-react": "^7.29.4",
+		"eslint-plugin-react-hooks": "^4.4.0",
+		"html-webpack-plugin": "^5.5.0",
+		"postcss": "^8.4.12",
+		"postcss-loader": "^6.2.1",
+		"postcss-preset-env": "^7.4.3",
+		"prettier": "^2.6.2",
+		"standard-version": "^9.3.2",
+		"style-loader": "^3.3.1",
+		"tailwindcss": "^3.0.24",
+		"typescript": "^4.6.3",
+		"webpack": "^5.72.0",
+		"webpack-cli": "^4.9.2",
+		"webpack-dev-server": "^4.8.1"
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		}
+	}
+}
