@@ -5,16 +5,10 @@ importers:
   .:
     specifiers: {}
 
-  projects/main-site-front:
+  dependencies/eslint:
     specifiers:
-      '@types/react': ^18.0.6
-      '@types/react-dom': ^18.0.2
       '@typescript-eslint/eslint-plugin': ^5.20.0
       '@typescript-eslint/parser': ^5.20.0
-      commitizen: ^4.2.4
-      css-loader: ^6.7.1
-      cz-conventional-changelog: ^3.3.0
-      esbuild-loader: ^2.18.0
       eslint: ^8.14.0
       eslint-config-airbnb: ^19.0.4
       eslint-config-prettier: ^8.5.0
@@ -24,6 +18,31 @@ importers:
       eslint-plugin-prettier: ^4.0.0
       eslint-plugin-react: ^7.29.4
       eslint-plugin-react-hooks: ^4.4.0
+      prettier: ^2.6.2
+      typescript: ^4.6.3
+    devDependencies:
+      '@typescript-eslint/eslint-plugin': 5.22.0_lnjlwhtxjffjmj5o7dnwvwyqxq
+      '@typescript-eslint/parser': 5.22.0_t725usgvqspm5woeqpaxbfp2qu
+      eslint: 8.14.0
+      eslint-config-airbnb: 19.0.4_nptqmwwqyh4rqdbvkb74m24o7u
+      eslint-config-prettier: 8.5.0_eslint@8.14.0
+      eslint-import-resolver-typescript: 2.7.1_myxbwluo6p3kuxjcyp342zygci
+      eslint-plugin-import: 2.26.0_eslint@8.14.0
+      eslint-plugin-jsx-a11y: 6.5.1_eslint@8.14.0
+      eslint-plugin-prettier: 4.0.0_mzpligoj26dazigcet37nxg2zy
+      eslint-plugin-react: 7.29.4_eslint@8.14.0
+      eslint-plugin-react-hooks: 4.5.0_eslint@8.14.0
+      prettier: 2.6.2
+      typescript: 4.6.4
+
+  projects/main-site-front:
+    specifiers:
+      '@types/react': ^18.0.6
+      '@types/react-dom': ^18.0.2
+      commitizen: ^4.2.4
+      css-loader: ^6.7.1
+      cz-conventional-changelog: ^3.3.0
+      esbuild-loader: ^2.18.0
       html-webpack-plugin: ^5.5.0
       postcss: ^8.4.12
       postcss-loader: ^6.2.1
@@ -48,21 +67,10 @@ importers:
     devDependencies:
       '@types/react': 18.0.8
       '@types/react-dom': 18.0.3
-      '@typescript-eslint/eslint-plugin': 5.22.0_lnjlwhtxjffjmj5o7dnwvwyqxq
-      '@typescript-eslint/parser': 5.22.0_t725usgvqspm5woeqpaxbfp2qu
       commitizen: 4.2.4
       css-loader: 6.7.1_webpack@5.72.0
       cz-conventional-changelog: 3.3.0
       esbuild-loader: 2.18.0_webpack@5.72.0
-      eslint: 8.14.0
-      eslint-config-airbnb: 19.0.4_nptqmwwqyh4rqdbvkb74m24o7u
-      eslint-config-prettier: 8.5.0_eslint@8.14.0
-      eslint-import-resolver-typescript: 2.7.1_myxbwluo6p3kuxjcyp342zygci
-      eslint-plugin-import: 2.26.0_eslint@8.14.0
-      eslint-plugin-jsx-a11y: 6.5.1_eslint@8.14.0
-      eslint-plugin-prettier: 4.0.0_mzpligoj26dazigcet37nxg2zy
-      eslint-plugin-react: 7.29.4_eslint@8.14.0
-      eslint-plugin-react-hooks: 4.5.0_eslint@8.14.0
       html-webpack-plugin: 5.5.0_webpack@5.72.0
       postcss: 8.4.13
       postcss-loader: 6.2.1_g4najheu5gwop3kphiif6aqpde
@@ -2052,8 +2060,8 @@ packages:
       object-inspect: 1.12.0
       object-keys: 1.1.1
       object.assign: 4.1.2
-      string.prototype.trimend: 1.0.4
-      string.prototype.trimstart: 1.0.4
+      string.prototype.trimend: 1.0.5
+      string.prototype.trimstart: 1.0.5
       unbox-primitive: 1.0.2
     dev: true
 
@@ -5448,18 +5456,20 @@ packages:
       side-channel: 1.0.4
     dev: true
 
-  /string.prototype.trimend/1.0.4:
-    resolution: {integrity: sha512-y9xCjw1P23Awk8EvTpcyL2NIr1j7wJ39f+k6lvRnSMz+mz9CGz9NYPelDk42kOz6+ql8xjfK8oYzy3jAP5QU5A==}
+  /string.prototype.trimend/1.0.5:
+    resolution: {integrity: sha512-I7RGvmjV4pJ7O3kdf+LXFpVfdNOxtCW/2C8f6jNiW4+PQchwxkCDzlk1/7p+Wl4bqFIZeF47qAHXLuHHWKAxog==}
     dependencies:
       call-bind: 1.0.2
       define-properties: 1.1.4
+      es-abstract: 1.19.5
     dev: true
 
-  /string.prototype.trimstart/1.0.4:
-    resolution: {integrity: sha512-jh6e984OBfvxS50tdY2nRZnoC5/mLFKOREQfw8t5yytkoUsJRNxvI/E39qu1sD0OtWI3OC0XgKSmcWwziwYuZw==}
+  /string.prototype.trimstart/1.0.5:
+    resolution: {integrity: sha512-THx16TJCGlsN0o6dl2o6ncWUsdgnLRSA23rRE5pyGBw/mLr3Ej/R2LaqCtgP8VNMGZsvMWnf9ooZPyY2bHvUFg==}
     dependencies:
       call-bind: 1.0.2
       define-properties: 1.1.4
+      es-abstract: 1.19.5
     dev: true
 
   /string_decoder/1.1.1:

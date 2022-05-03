@@ -33,7 +33,7 @@ export default {
 		extensions: ['*', '.js', '.ts', '.tsx'],
 	},
 	output: {
-		path: resolve(currentDirname, './dist'),
+		path: resolve(currentDirname, '../../dist/main-site-front'),
 		filename: 'bundle.js',
 	},
 	plugins: [new HotModuleReplacementPlugin(), new HtmlWebpackPlugin()],
