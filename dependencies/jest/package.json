@@ -1,0 +1,22 @@
+{
+	"name": "@dependencies/jest",
+	"type": "module",
+	"jest": {
+		"moduleNameMapper": {
+			"\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/file-mock.js",
+			"\\.(css|less)$": "<rootDir>/__mocks__/style-mock.js"
+		}
+	},
+	"dependencies": {
+		"@testing-library/react": "workspace:../testing-library-react",
+		"jest": "^28.0.3",
+		"react": "workspace:../react",
+		"react-dom": "workspace:../react-dom",
+		"typescript": "workspace:../typescript"
+	},
+	"devDependencies": {
+		"@types/jest": "^27.5.0",
+		"jest-environment-jsdom": "^28.0.2",
+		"ts-jest": "^28.0.0"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"name": "@dependencies/typescript",
+	"version": "4.6.4",
+	"type": "module",
+	"dependencies": {
+		"typescript": "4.6.4"
+	}
+}
