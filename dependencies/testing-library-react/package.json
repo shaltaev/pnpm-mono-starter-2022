@@ -1,0 +1,11 @@
+{
+	"name": "testing-library-react",
+	"version": "13.1.1",
+	"types": "index.d.ts",
+	"type": "module",
+	"dependencies": {
+		"@testing-library/react": "13.1.1",
+		"react": "workspace:../react",
+		"react-dom": "workspace:../react-dom"
+	}
+}

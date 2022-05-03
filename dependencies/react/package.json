@@ -1,0 +1,11 @@
+{
+	"name": "@dependencies/react",
+	"version": "18.1.0",
+	"type": "module",
+	"dependencies": {
+		"react": "18.1.0"
+	},
+	"devDependencies": {
+		"@types/react": "18.0.8"
+	}
+}
