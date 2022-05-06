@@ -1,7 +1,1 @@
-module.exports = {
-	content: ['./src/**/*.{tsx,ts}'],
-	theme: {
-		extend: {},
-	},
-	plugins: [],
-}
+module.exports = require('../../tailwind.config.cjs')

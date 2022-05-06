@@ -1,0 +1,16 @@
+{
+	"name": "@deps/jest",
+	"type": "module",
+	"types": "./node_modules/@types/jest",
+	"dependencies": {
+		"jest": "28.1.0",
+		"react": "workspace:../react",
+		"react-dom": "workspace:../react-dom",
+		"typescript": "workspace:../typescript"
+	},
+	"devDependencies": {
+		"@types/jest": "27.5.0",
+		"jest-environment-jsdom": "28.1.0",
+		"ts-jest": "28.0.1"
+	}
+}

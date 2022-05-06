@@ -1,4 +1,4 @@
 {
 	"root": true,
-	"extends": ["./dependencies/eslint/.eslintrc.json"]
+	"extends": ["./deps/eslint/.eslintrc.json"]
 }

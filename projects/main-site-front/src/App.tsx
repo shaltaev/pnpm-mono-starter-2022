@@ -1,4 +1,6 @@
-import React, { FC } from 'react'
+import React, { FC } from '@deps/react'
+
+import './main.css'
 
 export const App: FC = () => {
 	return (

@@ -1,5 +1,5 @@
-import React, { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import React, { StrictMode } from '@deps/react'
+import ReactDom from '@deps/react-dom'
 
 import './main.css'
 
@@ -11,7 +11,7 @@ document.body.appendChild(container)
 
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
-const root = createRoot(container)
+const root = ReactDom.createRoot(container)
 
 root.render(
 	<StrictMode>
