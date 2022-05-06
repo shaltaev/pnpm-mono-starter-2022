@@ -23,6 +23,7 @@
 		"**/*.tsx",
 		"tailwind.config.cjs",
 		"postcss.config.cjs",
-		"jest.config.cjs"
-, "webpack.config.js"	]
+		"jest.config.cjs",
+		"webpack.config.js"
+	]
 }

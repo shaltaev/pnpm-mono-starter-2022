@@ -1,5 +1,6 @@
-import React from 'react'
-import { render } from '@testing-library/react'
+import 'jest'
+import React from '@deps/react'
+import { render } from '@deps/tlr'
 
 import { App } from './App'
 
