@@ -1,5 +1,6 @@
 {
-	"private": "true",
+	"private": "false",
+	"license": "MIT",
 	"type": "module",
 	"engines": {
 		"pnpm": ">=7.0.0",
