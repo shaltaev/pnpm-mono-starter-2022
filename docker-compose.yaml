@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  web:
+    image: "node:18-alpine"
+    volumes:
+      - .:/mono
+    ports:
+      - "8888:3000"
+    command: "sleep infinity"
+    environment:
+     NODE_ENV: development
