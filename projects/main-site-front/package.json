@@ -13,13 +13,13 @@
 		"publish": "git flow release finish `sh ../../deps/version/scripts/ver.sh`"
 	},
 	"dependencies": {
-		"jest": "workspace:../../deps/jest",
-		"@deps/tlr": "workspace:../../deps/tlr",
 		"@deps/react": "workspace:../../deps/react",
-		"@deps/react-dom": "workspace:../../deps/react-dom",
-		"@deps/webpack": "workspace:../../deps/webpack"
+		"@deps/react-dom": "workspace:../../deps/react-dom"
 	},
 	"devDependencies": {
+		"@deps/tlr": "workspace:../../deps/tlr",
+		"@deps/webpack": "workspace:../../deps/webpack",
+		"jest": "workspace:../../deps/jest",
 		"typescript": "workspace:../../deps/typescript"
 	}
 }
