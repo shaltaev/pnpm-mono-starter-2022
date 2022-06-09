@@ -1,6 +1,6 @@
 # Description
 
-Mono-repository for personal site shaltaev.pro
+Mono-repository template
 
 ## TOC <!-- omit in toc -->
 
