@@ -1,0 +1,12 @@
+{
+	"private": "false",
+	"license": "MIT",
+	"type": "module",
+	"engines": {
+		"pnpm": ">=7.0.0",
+		"node": ">=18.0.0"
+	},
+	"devDependencies": {
+		"@types/node": "17.0.41"
+	}
+}

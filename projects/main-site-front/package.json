@@ -1,0 +1,25 @@
+{
+	"name": "@projects/main-site-front",
+	"version": "0.0.2",
+	"description": "",
+	"main": "src/index.tsx",
+	"type": "module",
+	"scripts": {
+		"test": "../../deps/jest/node_modules/.bin/jest",
+		"lint": "eslint --quiet --cache --config .eslintrc.json src/**/*.tsx",
+		"dev": "../../deps/webpack/node_modules/.bin/webpack-dev-server",
+		"bump": "../../deps/version/node_modules/.bin/standard-version --skip.tag",
+		"release": "git flow release start `sh ../../deps/version/scripts/next-ver.sh`",
+		"publish": "git flow release finish `sh ../../deps/version/scripts/ver.sh`"
+	},
+	"dependencies": {
+		"@deps/react": "workspace:../../deps/react",
+		"@deps/react-dom": "workspace:../../deps/react-dom"
+	},
+	"devDependencies": {
+		"@deps/tlr": "workspace:../../deps/tlr",
+		"@deps/webpack": "workspace:../../deps/webpack",
+		"jest": "workspace:../../deps/jest",
+		"typescript": "workspace:../../deps/typescript"
+	}
+}

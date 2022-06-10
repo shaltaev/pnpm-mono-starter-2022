@@ -1,0 +1,13 @@
+{
+	"name": "@deps/react-dom",
+	"type": "module",
+	"types": "./node_modules/@types/react-dom",
+	"version": "18.1.0",
+	"dependencies": {
+		"react-dom": "18.1.0",
+		"react": "workspace:../react"
+	},
+	"devDependencies": {
+		"@types/react-dom": "18.0.5"
+	}
+}

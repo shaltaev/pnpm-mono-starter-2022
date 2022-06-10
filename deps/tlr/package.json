@@ -1,0 +1,11 @@
+{
+	"name": "@deps/tlr",
+	"types": "./node_modules/@testing-library/react/types/index.d.ts",
+	"type": "module",
+	"version": "13.3.0",
+	"dependencies": {
+		"@testing-library/react": "13.3.0",
+		"react": "workspace:../react",
+		"react-dom": "workspace:../react-dom"
+	}
+}

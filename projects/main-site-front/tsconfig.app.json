@@ -1,0 +1,28 @@
+{
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+		"outDir": "../../dist/main-site-front"
+	},
+	"files": [],
+	"exclude": [
+		"jest.config.ts",
+		"**/*.spec.ts",
+		"**/*.test.ts",
+		"**/*.spec.tsx",
+		"**/*.test.tsx",
+		"**/*.spec.js",
+		"**/*.test.js",
+		"**/*.spec.jsx",
+		"**/*.test.jsx"
+	],
+	"include": [
+		"**/*.js",
+		"**/*.jsx",
+		"**/*.ts",
+		"**/*.tsx",
+		"tailwind.config.cjs",
+		"postcss.config.cjs",
+		"jest.config.cjs",
+		"webpack.config.js"
+	]
+}
